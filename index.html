@@ -3,15 +3,17 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#ffd92f">
+<meta name="theme-color" content="#34331b">
 <title>JetCity</title>
 <style>
 :root{--bg:#ffda2f;--blue:#0645ad;--guest:#174f9c;--muted:#174f9c;--line:rgba(0,70,170,.24)}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{margin:0;min-height:100vh;font-family:Arial,sans-serif;background:var(--bg);color:var(--blue)}
+.topbar{height:76px;background:#34331b;display:flex;align-items:center}
+.topbar .wrap{font-size:30px;font-weight:800;color:var(--blue)}
 .wrap{width:min(1050px,92%);margin:0 auto}
-.hero{padding:clamp(48px,9vh,90px) 0 36px}
+.hero{padding:clamp(38px,7vh,70px) 0 36px}
 .badge{display:inline-block;border:2px solid var(--line);background:transparent;padding:9px 18px;border-radius:999px;color:var(--muted);font-size:18px}
 h1{font-size:clamp(42px,9vw,76px);line-height:1.02;margin:32px 0 42px;text-align:center;font-weight:800;letter-spacing:-1px}
 h1 span{display:block}
@@ -20,10 +22,11 @@ h1 span{display:block}
 .guest-button{background:var(--guest);border-color:var(--guest)}
 .contact-wrap{display:flex;justify-content:center;margin-top:22px}
 .contact-button{display:inline-block;min-width:250px;padding:20px 30px;border:2px solid var(--line);border-radius:22px;text-align:center;text-decoration:none;font-size:clamp(21px,4vw,30px);font-weight:700;color:var(--blue);background:transparent}
-@media(min-width:721px){.hero{padding-top:55px}.wrap{width:min(760px,92%)}}
+@media(min-width:721px){.hero{padding-top:45px}.wrap{width:min(760px,92%)}}
 </style>
 </head>
 <body>
+<header class="topbar"><div class="wrap">Игорь</div></header>
 <main>
 <section class="hero">
 <div class="wrap">
